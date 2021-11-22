@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta name="description" content="" />
+		<link rel="stylesheet" href="./scss/styles.scss" />
+
+		<title>My First App</title>
+	</head>
+
+	<body>
+		<header>
+			<div id="logo"></div>
+			<nav>
+				<ul>
+					<li>
+						<a href="#about">
+							<span>About</span>
+						</a>
+					</li>
+					<li>
+						<a href="#skills"> <span>Skills</span></a>
+					</li>
+					<li>
+						<a href="#projects"> <span>Projects</span></a>
+					</li>
+					<li>
+						<a href="#contact"> <span>Contact</span></a>
+					</li>
+				</ul>
+			</nav>
+		</header>
+		<div id="space-container">
+			<section id="hero" class="hero section">
+				<div class="aster one"></div>
+				<div class="aster two"></div>
+				<div class="aster three"></div>
+				<h1>Anna Filipa Freitas</h1>
+				<p>Graphiste | Développeur intégrateur</p>
+				<div id="stars"></div>
+				<div id="stars2"></div>
+				<div id="stars3"></div>
+			</section>
+			<section id="about" class="about section">
+				<h2>About</h2>
+				<div id="astronaut"></div>
+				<div id="moon"></div>
+			</section>
+			<section id="skills" class="skills section">
+				<h2>Skills</h2>
+			</section>
+			<section id="projects" class="projects section">
+				<h2>My projects</h2>
+			</section>
+			<section id="contact" class="contact section">
+				<h2>Contact</h2>
+				<form action="">
+					<div class="form-container">
+						<div>
+							<label for="name"></label>
+							<input type="text" name="name" id="name" required />
+						</div>
+						<div>
+							<label for="email"></label>
+							<input type="email" name="email" id="email" required />
+						</div>
+					</div>
+					<div>
+						<label for="text"></label>
+						<input type="textarea" name="text" id="text" required />
+					</div>
+					<input type="submit" value="send" />
+				</form>
+			</section>
+		</div>
+
+		<footer></footer>
+		<script type="module" src="./js/index.js"></script>
+	</body>
+</html>
